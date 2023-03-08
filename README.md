@@ -12,9 +12,9 @@ El curso lo estoy haciendo con la versión de Node 16.15.1, así que de esa vers
 
 ## Instrucciones para tomar el curso
 
-En cada uno de los proyectos verás un README con explicaciones de su funcionamiento, pero por lo general una vez terminados los conceptos básicos, tendremos una branch `start` con todo el contenido inicial, una branch `main` o `master` con el resultado final, y branches entre medio.
+Básicamente tenemos una branch `start` con todo el contenido inicial, una branch `main` o `master` con el resultado final, y branches entre medio.
 
-El proceso sería más o menos el siguiente.
+El proceso sería el siguiente:
 
 Clonar el repo:
 
