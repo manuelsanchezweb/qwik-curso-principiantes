@@ -16,19 +16,19 @@ import { RouterHead } from "./components/router-head/router-head";
 
 import "./global.css";
 
-type AuthStore = {
+type AuthStoreProps = {
   userName: string;
   isLogged: Signal<boolean>;
   login: () => void;
   logout: () => void;
 };
 
-export const AuthContext = createContextId<AuthStore>("Auth");
+export const AuthContext = createContextId<AuthStoreProps>("Auth");
 
 export default component$(() => {
   const loginState = useSignal(false);
 
-  const authStore = useStore<AuthStore>({
+  const authStore = useStore<AuthStoreProps>({
     userName: "manuelsanchezweb",
     isLogged: loginState,
     login: $(() => {
