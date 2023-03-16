@@ -29,7 +29,7 @@ Instalamos las dependencias:
 
     npm install
 
-## Otros cursos y contacto
+## Otros cursos y contacto (En proceso)
 
 Si te ha gustado este curso y te has quedado con ganas de más, te invito a que le eches un vistazo a [mi curso de Qwik nivel intermedio-avanzado](https://www.udemy.com/user/manuel-sanchez-324/), en el que practicaremos todo lo aprendido haciendo varias aplicaciones con diseños profesionales.
 
